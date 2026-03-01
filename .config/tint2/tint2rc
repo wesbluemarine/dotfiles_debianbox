@@ -1,0 +1,104 @@
+#-------------------------------------
+# Backgrounds
+#-------------------------------------
+# Background 1: Panel
+rounded = 0
+border_width = 1
+background_color = #222222 100
+border_color = #3c4043 100
+
+# Background 2: Active task
+rounded = 4
+border_width = 0
+background_color = #005577 60
+border_color = #000000 0
+
+# Background 3: Urgent task
+rounded = 4
+border_width = 0
+background_color = #f28b82 100
+border_color = #000000 0
+
+# Background 4: Default task
+rounded = 4
+border_width = 0
+background_color = #3c4043 100
+border_color = #000000 0
+
+# Background 5: Systray
+rounded = 0
+border_width = 0
+background_color = #222222 100
+border_color = #000000 0
+
+#-------------------------------------
+# Panel
+#-------------------------------------
+panel_items = CPST
+panel_size = 0 78
+panel_margin = 0 0
+panel_padding = 0 0 0
+panel_background_id = 1
+panel_position = top right vertical
+panel_fixed_size = 0
+panel_layer = normal
+panel_monitor = all
+strut_policy = follow_size
+panel_window_name = tint2
+
+#-------------------------------------
+# Clock
+#-------------------------------------
+time1_format = %H:%M
+time2_format = %a %d
+time1_font = Terminus 15
+time2_font = Terminus 12
+clock_font_color = #e8eaed 100
+clock_padding = 2 15
+clock_background_id = 1
+
+#-------------------------------------
+# Taskbar
+#-------------------------------------
+taskbar_mode = single_desktop
+taskbar_padding = 20 20 20
+taskbar_background_id = 1
+taskbar_distribute_size = 0
+task_align = left
+
+#-------------------------------------
+# Task
+#-------------------------------------
+task_text = 0
+task_icon = 1
+task_centered = 1
+task_icon_asb = 100 0 0
+task_maximum_size = 40 40
+task_margin = 0 8 0
+task_padding = 20 6 4
+
+task_background_id = 0
+task_active_background_id = 2
+task_urgent_background_id = 3
+
+# Mouse Actions
+mouse_left = toggle_iconify
+mouse_middle = close
+mouse_right = none
+
+#-------------------------------------
+# System tray (notification area)
+#-------------------------------------
+systray_padding = 4 4 2
+systray_background_id = 5
+systray_icon_size = 10
+systray_icon_asb = 100 0 0
+
+#-------------------------------------
+# Tooltip
+#-------------------------------------
+tooltip_show_timeout = 0
+tooltip_hide_timeout = 0
+tooltip_padding = 8 4
+tooltip_background_id = 1
+tooltip_font_color = #e8eaed 100
