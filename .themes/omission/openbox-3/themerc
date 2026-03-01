@@ -1,0 +1,42 @@
+!! Menu
+menu.border.width: 20
+menu.border.color: #ffffff
+menu.overlap.x: -30
+menu.title.bg: flat
+menu.title.bg.color: #ffffff
+menu.title.text.color: #000000
+menu.title.text.justify: center
+menu.items.bg: flat
+menu.items.bg.color: #ffffff
+menu.items.text.color: #000000
+menu.items.active.bg: flat
+menu.items.active.bg.color: #005577
+menu.items.active.text.color: #ffffff
+menu.items.justify: left
+
+!! Titlebar
+window.*.title.bg: flat
+window.*.label.bg: flat
+window.active.label.bg.color: #005577
+window.inactive.label.bg.color: #e5eef1
+window.active.title.bg.color: #005577
+window.inactive.title.bg.color: #e5eef1
+window.active.button.disabled.image.color: #161618
+window.active.label.text.color: #ffffff
+window.inactive.label.text.color: #000000
+window.label.text.justify: left
+window.button.height: 40
+window.titlebar.padding.width: 16
+window.titlebar.padding.height: 2
+
+!! Borders
+border.width: 0
+padding.width: 12
+padding.height: 12
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+!! OSD
+osd.border.width: 4
+osd.border.color: #005577
