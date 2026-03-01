@@ -1,0 +1,4 @@
+#hsetroot and picom on container
+~/.local/bin/hsetroot -solid "#C6C6C6" > /dev/null 2>&1 &
+~/.local/bin/picom > /dev/null 2>&1 &
+tint2 &
